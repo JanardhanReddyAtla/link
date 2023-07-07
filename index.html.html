@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="./Calculator.css">
+</head>
+<body>
+    <div id="container">
+        <form name="calc">
+            <input id="display" name="Answers">
+            <input class="buttons" type="button" value="1" onclick="calc.Answers.value+='1'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="2" onclick="calc.Answers.value+='2'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="3" onclick="calc.Answers.value+='3'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="+" onclick="calc.Answers.value+='+'" onmousedown="ClickSound()">
+            <br><br>
+            <input class="buttons" type="button" value="4" onclick="calc.Answers.value+='4'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="5" onclick="calc.Answers.value+='5'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="6" onclick="calc.Answers.value+='6'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="-" onclick="calc.Answers.value+='-'" onmousedown="ClickSound()">
+            <br><br>
+            <input class="buttons" type="button" value="7" onclick="calc.Answers.value+='7'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="8" onclick="calc.Answers.value+='8'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="9" onclick="calc.Answers.value+='9'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="*" onclick="calc.Answers.value+='*'" onmousedown="ClickSound()">
+            <br><br>
+            <input class="buttons" type="button" value="/" onclick="calc.Answers.value+='/'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="0" onclick="calc.Answers.value+='0'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="%" onclick="calc.Answers.value+='%'" onmousedown="ClickSound()">
+            <input class="buttons" type="button" value="." onclick="calc.Answers.value+='.'" onmousedown="ClickSound()">
+            <br><br>
+            <input class="buttons" type="clearButton" value="clc" onclick="calc.Answers.value=''" onmousedown="ClickSound()">
+            <input class="buttons" type="equalButton" value="=" onclick="calc.Answers.value=eval(calc.Answers.value)" onmousedown="ClickSound()">
+
+
+        </form>
+
+    </div>
+</body>
+</html>
